@@ -10,6 +10,8 @@ updated: 2026-06-25
 关联笔记：[[半导体]]、[[AI服务器]]、[[先进封装]]
 
 ## GPU
+**全称 / Short for：** Graphics Processing Unit。
+
 **一句话解释：** GPU 是图形处理器，擅长做大量并行计算，是当前 AI 训练和推理的核心芯片之一。
 
 **大白话：** CPU 像一个很聪明但人手有限的总管，GPU 像一大群可以同时干活的工人。AI 模型训练需要反复做海量矩阵计算，所以 GPU 特别适合。
@@ -23,6 +25,8 @@ updated: 2026-06-25
 - 龙头 GPU 公司是否继续掌握平台定价权。
 
 ## CPU
+**全称 / Short for：** Central Processing Unit。
+
 **一句话解释：** CPU 是中央处理器，负责通用计算、系统调度和控制任务。
 
 **大白话：** CPU 像数据中心里的“大脑和调度员”，不一定最擅长 AI 矩阵计算，但负责安排任务、控制系统和处理复杂逻辑。
@@ -35,6 +39,8 @@ updated: 2026-06-25
 - CPU 平台升级是否带动主板、内存和互连变化。
 
 ## DPU
+**全称 / Short for：** Data Processing Unit。
+
 **一句话解释：** DPU 是数据处理器，负责网络、存储、安全和数据搬运等基础设施任务。
 
 **大白话：** 如果 GPU 是主力工人，CPU 是总管，DPU 就像专门负责物流、门禁和运输的后台团队。它把很多杂活从 CPU 身上拿走，让系统更高效。
@@ -47,6 +53,8 @@ updated: 2026-06-25
 - 数据中心网络复杂度是否上升。
 
 ## NPU
+**全称 / Short for：** Neural Processing Unit。
+
 **一句话解释：** NPU 是神经网络处理器，专门针对 AI 推理或训练中的神经网络计算做优化。
 
 **大白话：** NPU 是“为 AI 题目专门训练过的芯片”。它不一定像 GPU 那么通用，但在特定 AI 任务上可能更省电、更高效。
@@ -59,6 +67,8 @@ updated: 2026-06-25
 - 单颗 NPU 对存储、封装和 PCB 的拉动强度通常弱于高端数据中心 GPU。
 
 ## ASIC
+**全称 / Short for：** Application-Specific Integrated Circuit。
+
 **一句话解释：** ASIC 是专用集成电路，为特定任务定制设计。
 
 **大白话：** GPU 是通用的高性能工具箱，ASIC 是为了某个大客户或某类任务专门做的一把“定制刀”。如果任务稳定、规模足够大，ASIC 可能更便宜、更省电。
@@ -71,6 +81,8 @@ updated: 2026-06-25
 - ASIC 设计公司、IP、晶圆代工、封装和 HBM 的受益分配。
 
 ## TPU
+**全称 / Short for：** Tensor Processing Unit。
+
 **一句话解释：** TPU 是张量处理器，是一种针对机器学习计算设计的专用加速器。
 
 **大白话：** TPU 可以理解为某些云厂商为 AI 计算专门做的 ASIC。它不是所有公司都能买到的通用芯片，而是围绕特定云生态和模型训练推理场景设计。
@@ -83,6 +95,8 @@ updated: 2026-06-25
 - 会不会影响通用 GPU 的需求预期。
 
 ## AI Accelerator
+**全称 / Short for：** Artificial Intelligence Accelerator。
+
 **一句话解释：** AI Accelerator 是 AI 加速器的统称，包括 GPU、ASIC、NPU、TPU 等。
 
 **大白话：** 只要是专门帮 AI 算得更快的芯片，都可以放进这个大篮子里。
@@ -95,6 +109,8 @@ updated: 2026-06-25
 - 加速器升级对 HBM、封装、PCB 和光模块的连锁影响。
 
 ## NIC
+**全称 / Short for：** Network Interface Card，也常写作 Network Interface Controller。
+
 **一句话解释：** NIC 是网卡，负责服务器与网络之间的数据收发。
 
 **大白话：** NIC 是服务器接入网络的“网口和交通岗”。AI 集群越大，服务器之间通信越频繁，对高性能网卡要求越高。
@@ -107,6 +123,8 @@ updated: 2026-06-25
 - NIC 与 DPU、交换芯片、光模块之间的配套关系。
 
 ## SerDes
+**全称 / Short for：** Serializer/Deserializer。
+
 **一句话解释：** SerDes 是串行器/解串器，用于高速芯片间数据传输。
 
 **大白话：** SerDes 像芯片之间的高速翻译和传送带，把并行数据变成高速串行信号再传出去。
@@ -119,6 +137,8 @@ updated: 2026-06-25
 - 相关 IP、芯片设计和测试难度。
 
 ## Retimer
+**全称 / Short for：** 不是缩写，英文就是 Retimer，意思是信号重定时器。
+
 **一句话解释：** Retimer 是信号重定时芯片，用于恢复高速信号质量。
 
 **大白话：** 高速信号跑远了会变形，Retimer 像中途的“信号整形站”，让数据继续稳定传输。
