@@ -1,5 +1,12 @@
 .DS_Store
 .obsidian/workspace.json
+.obsidian/plugins/
+.obsidian/community-plugins.json
+.claudian/
 04-研报卡片/研报PDF/
+07-周度观察/附件/
 *.pdf
-
+*.png
+*.PNG
+*.jpg
+*.jpeg
